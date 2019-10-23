@@ -8,6 +8,7 @@ class SquareTest {
 
     @Test
     void getArea() {
-
+        Square square = new Square(10);
+        assertEquals(100.0, square.getArea(), 0.1);
     }
 }
